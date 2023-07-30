@@ -6,7 +6,7 @@ import random
 while True:
    if choice=="1":
       roll = random.randint(1,6)
-      print("Dice Roll Result: " , roll)
+      print("tas Roll Result: " , roll)
       if roll==6:
          print("good luck, you have gift")
          gift = random.randint(1,6)
@@ -17,7 +17,7 @@ while True:
    if choice=="2":
       break
    else:
-      print("invalid choise")
+      print("error ")
       
       
 
